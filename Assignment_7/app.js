@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const app = express();
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://roshnibhamare143:YHmnQWkVT9AHFsCq@cluster0.a1z5sp6.mongodb.net/')
+mongoose.connect('mongodb+srv://admin:1234admin@cluster0.a1z5sp6.mongodb.net/')
 
 const UsersSchema = new mongoose.Schema({
     name: String,
