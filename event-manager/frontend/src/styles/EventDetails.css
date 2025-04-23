@@ -1,0 +1,45 @@
+.event-details-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #fffaf0, #ffe4f2);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .event-name {
+    font-size: 3rem;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+  }
+  
+  .event-info {
+    font-size: 1.3rem;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .event-desc {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    max-width: 600px;
+    color: #444;
+  }
+  
+  .back-btn {
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #4a148c;
+  }
+  
